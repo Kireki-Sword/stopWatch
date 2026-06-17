@@ -20,7 +20,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     border: 1px solid black;
-    box-shadow: 10px 10px 15px rgba(61, 60, 60, 0.5);
+    box-shadow: 25px 25px 20px  #ffffffda;
     background-color: #ffffffd0;
 
 }
