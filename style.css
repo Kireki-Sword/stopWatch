@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 5em;
+    font-size: 2em;
     margin: 4px 2px;
     cursor: pointer;
     box-shadow: 10px 10px 15px #5dd380d3;
@@ -51,7 +51,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2em;
     margin: 4px 2px;
     cursor: pointer;
     box-shadow: 10px 10px 15px #eb6d5ddc;
@@ -66,7 +66,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2em;
     margin: 4px 2px;
     cursor: pointer;
     box-shadow: 10px 10px 15px #50c7c7d8;
