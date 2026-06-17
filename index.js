@@ -27,7 +27,7 @@ function reset() {
     startTime = 0;
     elapsedTime = 0;
     isRunning = false;
-    timer.textContent = '00:00:00.000';
+    timer.textContent = '00:00:00:00';
 }
 
 function update() {
@@ -39,7 +39,7 @@ function update() {
     const milliseconds = elapsedTime % 1000 / 10;
 
     timer.textContent =
-        `${pad(hours)}:${pad(minutes)}:${pad(seconds)}.${pad(milliseconds, 3)}`;
+        `${pad(hours)}:${pad(minutes)}:${pad(seconds)}:${pad(milliseconds, 3)}`;
 }
 function pad(number) {
     return String(number).padStart(2, '0');
