@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #807b7b;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+#stopwatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 10px 10px 15px rgba(61, 60, 60, 0.5);
+}
+#timer {
+    font-size: 6em;
+    margin-right: 20px;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px rgba(61, 60, 60, 0.5);
+}
+
+#buttons {
+    box-shadow: 10px 10px 15px rgba(61, 60, 60, 0.5);
+    colour: rgba(255, 255, 255, 0.75);
+}
+#start {
+    background-color: #4caf6a;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#stop {
+    background-color: #f44c36b6;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#reset {
+    background-color: #36b8f4b6;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
