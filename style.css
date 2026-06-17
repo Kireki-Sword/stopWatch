@@ -9,9 +9,11 @@ h1 {
     justify-content: center;
 }
 #stopwatch {
+    width: 650px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid black;
     box-shadow: 10px 10px 15px rgba(61, 60, 60, 0.5);
@@ -25,8 +27,9 @@ h1 {
     text-shadow: 2px 2px 4px rgba(61, 60, 60, 0.5);
 }
 
-#buttons {
-    color: rgba(255, 255, 255, 0.75);
+
+.buttons {
+        color: rgba(255, 255, 255, 0.75);
     border: none;
     border-radius: 15px;
     color: white;
@@ -37,6 +40,7 @@ h1 {
     font-size: 2em;
     margin: 4px 2px;
     cursor: pointer;
+
 }
 #start {
     background-color: #4caf5ce1;
