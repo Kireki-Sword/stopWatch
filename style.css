@@ -10,6 +10,7 @@ h1 {
 }
 #stopwatch {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
@@ -28,9 +29,6 @@ h1 {
     color: rgba(255, 255, 255, 0.75);
     border: none;
     border-radius: 15px;
-}
-#start {
-    background-color: #4caf5ce1;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -39,6 +37,9 @@ h1 {
     font-size: 2em;
     margin: 4px 2px;
     cursor: pointer;
+}
+#start {
+    background-color: #4caf5ce1;
     box-shadow: 10px 10px 15px #5dd380d3;
 }
 #start:hover {
@@ -46,14 +47,6 @@ h1 {
 }
 #stop {
     background-color: #f44c36b6;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2em;
-    margin: 4px 2px;
-    cursor: pointer;
     box-shadow: 10px 10px 15px #eb6d5ddc;
 }
 #stop:hover {
@@ -61,14 +54,6 @@ h1 {
 }
 #reset {
     background-color: #36b8f4b6;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2em;
-    margin: 4px 2px;
-    cursor: pointer;
     box-shadow: 10px 10px 15px #50c7c7d8;
 }
 #reset:hover {
