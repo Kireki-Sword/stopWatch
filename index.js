@@ -13,7 +13,7 @@ function start() {
     }
 }
 
-function stop() {
+function Bstop() {
     if (isRunning) {
         clearInterval(timerFull);
         elapsedTime = Date.now() - startTime;
