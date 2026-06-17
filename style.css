@@ -21,11 +21,12 @@ h1 {
     border: 1px solid black;
     box-shadow: 25px 25px 20px  #ffffffda;
     background-color: #ffffffd0;
+    padding: 40px;
 
 }
 #timer {
     font-size: 6em;
-    margin-right: 20px;
+    margin: 0;
     font-family: monospace;
     text-shadow: 2px 2px 4px rgba(61, 60, 60, 0.5);
 }
