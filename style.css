@@ -7,8 +7,7 @@ body {
     min-height: 100vh;
 }
 h1 {
-    font-size: 5em;
-    margin: 0.67em 0;
+    font-size: 4em;
     display: flex;
     justify-content: center;
 }
@@ -34,11 +33,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .buttons {
-        color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     border: none;
     border-radius: 15px;
     color: white;
