@@ -22,7 +22,7 @@ h1 {
 
 #buttons {
     box-shadow: 10px 10px 15px rgba(61, 60, 60, 0.5);
-    colour: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
 }
 #start {
     background-color: #4caf6a;
