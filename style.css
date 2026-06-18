@@ -8,9 +8,9 @@ body {
 }
 h1 {
     font-size: 4em;
-    display: flex;
-    justify-content: center;
+    margin: 0;
 }
+
 #stopwatch {
     width: 650px;
     height: 700px;
@@ -21,7 +21,7 @@ h1 {
     border: 1px solid black;
     box-shadow: 15px 15px 20px  #ffffffb0;
     background-color: #ffffffd0;
-    padding: 40px;
+    padding: 60px;
 
 }
 #timer {
