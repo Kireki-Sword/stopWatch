@@ -38,7 +38,7 @@ function update() {
     const hours = Math.floor(elapsedTime / (1000 * 60 * 60));
     const minutes = Math.floor((elapsedTime / (1000 * 60)) % 60);
     const seconds = Math.floor((elapsedTime / 1000) % 60);
-    const milliseconds = elapsedTime % 1000 / 10;
+    const milliseconds = Math.floor(elapsedTime % 1000 / 10);
 
     timer.textContent =
         `${pad(hours)}:${pad(minutes)}:${pad(seconds)}:${pad(milliseconds)}`;
