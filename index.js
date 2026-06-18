@@ -18,7 +18,6 @@ function Bstop() {
         clearInterval(timerFull);
         elapsedTime = Date.now() - startTime;
         isRunning = false;
-        window.alert(`Elapsed time: ${timer.textContent}`);
     }
 }
 
@@ -29,7 +28,6 @@ function reset() {
     elapsedTime = 0;
     isRunning = false;
     timer.textContent = '00:00:00:00';
-    window.alert('Stopwatch has been reset.');
 }
 
 function update() {
